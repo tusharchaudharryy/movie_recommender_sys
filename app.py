@@ -3,7 +3,7 @@ import pickle
 import requests
 
 movies_name = pickle.load(open('movies.pkl', 'rb'))
-movies_list = movies_name['title'].values
+movies_list = movies_name['title'].values 
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 
